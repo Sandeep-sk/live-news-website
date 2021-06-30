@@ -1,5 +1,5 @@
 
-const api=`33d1cfbd6d504e74a0d113d2e2982848`; // use user api here
+const api=``; // use user api here
 const xhr = new XMLHttpRequest();
 //        ----------------------get request---------------
 // xhr.open('GET', 'fetchedfile.json', true);
