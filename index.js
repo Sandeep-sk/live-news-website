@@ -1,12 +1,12 @@
 
-const api=``; // use user api here
+const api=`33d1cfbd6d504e74a0d113d2e2982848`; // use user api here
 const xhr = new XMLHttpRequest();
 //        ----------------------get request---------------
 // xhr.open('GET', 'fetchedfile.json', true);
 //use this below
-// xhr.open('GET',`http://newsapi.org/v2/top-headlines?country=in&apiKey=${api}`,true); 
+xhr.open('GET',`http://newsapi.org/v2/top-headlines?country=in&apiKey=${api}`,true); 
 // just for demo without internet
-xhr.open('GET',`fetchedfile.json`,true);
+// xhr.open('GET',`fetchedfile.json`,true);
 //what todo on progress (optional)
 xhr.getResponseHeader("Content-type", 'application/json');
 xhr.onprogress = function () {
